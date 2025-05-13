@@ -86,7 +86,7 @@ nav {
   z-index: 2;
   display: flex;
   gap: 0.5rem;
-  margin-right: 0%;
+  margin-right: 4%;
   margin-top: 10px;
 }
 
@@ -150,4 +150,27 @@ nav a:hover {
 #parrafo-principal {
   text-align: center;
   align-items: center;
+}
+
+.full-wight-container-2 {
+  background-color: rgb(0, 0, 0);
+  height: 25rem;
+  display: flex;
+  align-items: center;
+}
+
+#imagen-biografia {
+  margin-left: 1rem;
+  padding-left: 1em;
+}
+
+#parrafo-biografia {
+  text-align: center;
+  align-items: center;
+  padding-right: 4rem;
+  padding-left: 0;
+}
+
+#parrafo-2 {
+  color: rgb(255, 255, 255);
 }

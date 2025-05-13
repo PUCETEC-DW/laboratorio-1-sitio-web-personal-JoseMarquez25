@@ -7,6 +7,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 1em;
   padding: 0;
+  margin: 0;
 }
 
 p {
@@ -33,11 +34,6 @@ p {
   background-color: #d1d5db; /* Gris claro elegante */
   margin: 0.5rem auto 0;
   border-radius: 2px;
-}
-
-body {
-  margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Container principal */

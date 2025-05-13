@@ -22,7 +22,7 @@ p {
     padding: 0.6rem 2rem;
     background-color: #020113;
     border: 1px solid #e0e0e0;
-    box-shadow: 0 0 10px rgba(200 200 200 / 90%);
+    box-shadow: 0 0 10px rgb(200 200 200 / 90%);
     border-radius: 10px;
     margin: 2rem auto;
     width: fit-content;

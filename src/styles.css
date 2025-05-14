@@ -66,14 +66,13 @@ p {
   height: 200px;
   object-fit: cover;
   opacity: 0.4;
-  filter: grayscale(50%);
 }
 
 @keyframes scroll {
   0% {
     transform: translateX(0);
   }
-  
+
   100% {
     transform: translateX(-1600px); /* ajustado a número de imágenes */
   }
@@ -87,7 +86,7 @@ nav {
   display: flex;
   gap: 0.5rem;
   margin-right: 4%;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 nav a {
@@ -167,10 +166,10 @@ nav a:hover {
 #parrafo-biografia {
   text-align: center;
   align-items: center;
-  padding-right: 4rem;
-  padding-left: 0;
+  padding-right: 2rem;
+  padding-left: 5rem;
 }
 
 #parrafo-2 {
-  color: rgb(255, 255, 255);
+  color: rgb(255 255 255);
 }

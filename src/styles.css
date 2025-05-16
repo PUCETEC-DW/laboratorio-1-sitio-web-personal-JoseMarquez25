@@ -18,24 +18,22 @@ p {
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
-  color: #526666; /* Gris oscuro elegante */
+  color: #526666;
   margin-top: 2rem;
   margin-bottom: 1rem;
   position: relative;
 }
 
-/* Línea decorativa debajo */
 .titulo-principal::after {
   content: "";
   display: block;
   width: 80px;
   height: 4px;
-  background-color: #d1d5db; /* Gris claro elegante */
+  background-color: #d1d5db;
   margin: 0.5rem auto 0;
   border-radius: 2px;
 }
 
-/* Container principal */
 .container-hero {
   position: relative;
   width: 100%;
@@ -44,7 +42,6 @@ p {
   color: white;
 }
 
-/* Fondo animado */
 .background-slider {
   position: absolute;
   top: 0;
@@ -57,7 +54,7 @@ p {
 
 .slider-track {
   display: flex;
-  width: calc(400px * 8); /* ancho total de las imágenes */
+  width: calc(400px * 8);
   animation: scroll 60s linear infinite;
 }
 
@@ -74,11 +71,10 @@ p {
   }
 
   100% {
-    transform: translateX(-1600px); /* ajustado a número de imágenes */
+    transform: translateX(-1600px);
   }
 }
 
-/* Navbar */
 nav {
   position: absolute;
   right: 0%;
@@ -104,7 +100,6 @@ nav a:hover {
   color: rgb(0 0 8);
 }
 
-/* Título centrado */
 .titulo {
   position: absolute;
   top: 50%;
@@ -174,7 +169,6 @@ nav a:hover {
   color: rgb(255 255 255);
 }
 
-/*footer*/
 .footer-basic {
   padding: 20px 0;
   background-color: transparent;

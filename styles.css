@@ -198,9 +198,7 @@ nav a:hover {
   opacity: 0.8;
 }
 
-.footer-basic ul a:hover {
-  opacity: 1;
-}
+
 
 .footer-basic .social {
   text-align: center;
@@ -219,10 +217,7 @@ nav a:hover {
   opacity: 0.75;
 }
 
-.footer-basic .social > a:hover {
-  opacity: 0.9;
-  transform: scale(1.5);
-}
+
 
 .footer-basic .copyright {
   margin-top: 10px;
@@ -230,4 +225,13 @@ nav a:hover {
   font-size: 20px;
   color: #474747;
   margin-bottom: 0;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+  transform: scale(1.5);
 }

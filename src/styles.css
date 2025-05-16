@@ -129,6 +129,7 @@ nav a:hover {
   height: 25rem;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #parrafo-1 {

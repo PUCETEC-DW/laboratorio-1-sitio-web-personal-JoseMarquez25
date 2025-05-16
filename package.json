@@ -1,0 +1,10 @@
+{
+  "homepage": "https//JoseMarquez25.github.io/laboratorio-1-sitio-web-personal-JoseMarquez25",
+  "scripts": {
+    "predeploy": "echo Predeploy....",
+    "deploy": "gh-pages -d src"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
